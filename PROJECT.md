@@ -105,15 +105,20 @@ Dockerfile
 
 ## How to get bonuses?
 
-Every initiative will be counted. There are bonus tasks proposed:
+Every initiative will be counted. 
 
-1. Use different tools and platforms instead of what has been passed in the labs, for example (GitLab CI/CD, Netlify)
-2. Use different language (Java, Ruby, Python etc.) for developing the application
-3. Bring the Node.js app with the additional features:
+List of bonus tasks proposed:
+
+1. Use different tools and platforms instead of what has been passed in the labs, for example: GitLab CI/CD, Netlify, etc.
+2. Use different language (Java, Ruby, Python etc.) to develop the application
+3. If you use the NodeJS application provided in [assets](assets) folder, bring it with additional features:
   - more different API methods
   - more different unit/functional/integration tests
+  - using another database (like MongoDB, MySQL, ...)
   - integrate to your source code a documenting package, for example, [Swagger UI](https://www.npmjs.com/package/express-swagger-generator)
-4. Etc. 
+4. Any number Kubernetes tasks from [this list](https://kubernetes.io/docs/tasks/). 
+5. [Securing microservice communication](https://istio.io/latest/docs/tasks/security/) or with Istio 
+6. Etc. 
 
 ## How to send a project for evaluation?
 
@@ -124,4 +129,24 @@ Every initiative will be counted. There are bonus tasks proposed:
     - A link to the repository on GitHub/GitLab
     - List of authors and the group number
 
-2. **Attention!** Make sure your repository is **PRIVATE** and **you sent an invitation** to the GitHub account - https://github.com/sergkudinov. Otherwise, if it is not PRIVATE the grade will be reduced to 0.
+2. **Attention!** Make sure your repository is **PRIVATE** and **you have sent an invitation** to the GitHub account - https://github.com/sergkudinov. Otherwise, if it isn't PRIVATE the final grade will be **reduced to 0**.
+
+## Grading system
+
+| Subject                                                         |   Code    | Max. grade|
+|:----------------------------------------------------------------|:---------:|:---------:|
+| Enriched web application with automated tests                   |   APP     |    +1     |
+| Continuous Integration and Continuous Delivery (and Deployment) |   CICD    |    +3     |
+| Containerisation with Docker                                    |   D       |    +1     |
+| Orchestration with Docker Compose                               |   DC      |    +2     |
+| Orchestration with Kubernetes	                                  |   KUB     |    +4     |
+| Service mesh using Istio                                        |   IST     |    +3     |
+| Infrastructure as code using Ansible                            |   IAC     |    +3     |
+| Accurate project documentation in README.md file                |   DOC     |    +3     |
+| Each bonus tasks                                                |   BNS     |    +1     |
+
+It is also taken into account:
+
+- richness of the commit history
+- accuracy and purity of the project (descriptions, source code, files)
+- activity in during course sessions
