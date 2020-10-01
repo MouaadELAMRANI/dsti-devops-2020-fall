@@ -4,7 +4,7 @@ The DevOps project is based on all the labs passed and students are allowed to u
 
 ## Deadline
 
-TODO Will be completed ...
+**15th November 2020 at midnight**
 
 ## Instructions
 
