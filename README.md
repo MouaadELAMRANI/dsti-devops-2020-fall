@@ -14,6 +14,10 @@ Each module folder can contain following:
 - `lab` folder - provided assets for the labs
 - `image` folder - images used in the `.md` files
 
+## Project assignment
+
+See [project description page](PROJECT.md)
+
 ## Author
 
 Sergei Kudinov   
